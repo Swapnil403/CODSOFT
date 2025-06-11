@@ -1,0 +1,142 @@
+/* Google Fonts */
+body {
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    background: #f7f9fc;
+    color: #1e1e2f;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+    color: #4f46e5;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e1e2f;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 10%;
+    background: #e0e7ff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 25px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Features */
+.features {
+    padding: 60px 10%;
+    background: white;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.feature-box {
+    flex: 1 1 250px;
+    padding: 20px;
+    background: #f1f5f9;
+    border-radius: 10px;
+}
+
+.feature-box i {
+    color: #4f46e5;
+    margin-bottom: 10px;
+}
+
+/* About */
+.about {
+    padding: 60px 10%;
+    background: #eef2ff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Contact */
+.contact {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.contact input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    min-width: 250px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 20px 10%;
+}
+
+footer .socials a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
