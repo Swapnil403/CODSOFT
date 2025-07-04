@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Swapnil's Portfolio</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hi, I'm <span>Swapnil Padhen</span>.</h1>
+            <p>Aspiring Web Developer</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <img src="your-image.jpg" alt="Swapnil Padhen" class="about-img" />
+        <p>I am Swapnil, a passionate learner and beginer web developer currently doing internship with Codsoft.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Resposive Web Design, Flexbox, CSS Grid</li>
+            <li>React.JS (Learning)</li>
+            <li>Python (Learning)</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <a href="https://swapnil403.github.io/CODSOFT/" target="_blank" class="project-tile">
+                <img class="projects__images" src="https://i.imgur.com/yqKZLZ2.png" alt="Landing Page Screenshot">
+                <p>Landing Page (Task 1)</p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project-tile">
+                <img class="projects__images" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg">
+                <p>Tribute Page</p>
+                <p class="desc">A tribute to Dr. Norman Borlaug</p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project-tile">
+                <img class="projects__images" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png">
+                <p>Random Quote Machine</p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project-tile">
+                <img class="projects__images" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png">
+                <p>JavaScript Calculator</p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project-tile">
+                <img class="projects__images" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg">
+                <p>Map Across the Globe</p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project-tile">
+                <img class="projects__images" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png">
+                <p>Wikipedia Viewer</p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project-tile">
+                <img class="projects__images" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png">
+                <p>Tic Tac Toe Game</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: swapnilpadhen@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/Swapnil403" target="_blank">Swapnil403</a></p>
+        <p id="resume"><a href="Swapnil_Resume.pdf" download>Download My Resume (PDF)</a></p>
+        <p>Phone: +91 XXXXXXXXXX</p>
+        
+        <form action="mailto:swapnilpadhen@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required /><br><br>
+            <input type="email" name="email" placeholder="Your Email" required /><br><br>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Swapnil. All rights reserved.</p>
+    </footer>
+</body>
+</html>
